@@ -26,26 +26,38 @@ class stats
 public:
     stats();
     
-    void set_agility();
-    void set_agility(int);
+    virtual void set_agility();
+    virtual void set_agility(int);
     
-    void set_intelligence();
-    void set_intelligence(int);
+    virtual void set_intelligence();
+    virtual void set_intelligence(int);
     
-    void set_luck();
-    void set_luck(int);
+    virtual void set_luck();
+    virtual void set_luck(int);
     
-    void set_strength();
-    void set_strength(int);
+    virtual void set_strength();
+    virtual void set_strength(int);
     
-    void set_wisdom();
-    void set_wisdom(int);
+    virtual void set_wisdom();
+    virtual void set_wisdom(int);
     
-    int get_agility();
-    int get_intelligence();
-    int get_luck();
-    int get_strength();
-    int get_wisdom();
+    virtual void set_manapool();
+    virtual void set_manapool(int);
+    
+    virtual void set_stamina();
+    virtual void set_stamina(int);
+    
+    virtual void set_health();
+    virtual void set_health(int);
+    
+    virtual int get_agility();
+    virtual int get_intelligence();
+    virtual int get_luck();
+    virtual int get_strength();
+    virtual int get_wisdom();
+    virtual int get_manapool();
+    virtual int get_stamina();
+    virtual int get_health();
     
 private:
   int agility;
@@ -53,7 +65,9 @@ private:
   int luck;
   int strength;
   int wisdom;
-  
+  int manapool;
+  int stamina;
+  int health;
 };
 
 #endif // STATS_H

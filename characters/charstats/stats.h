@@ -50,6 +50,12 @@ public:
     virtual void set_health();
     virtual void set_health(int);
     
+    virtual void set_defense();
+    virtual void set_defense(int);
+    
+    virtual void set_magic_resistance();
+    virtual void set_magic_resistance(int);
+    
     virtual int get_agility();
     virtual int get_intelligence();
     virtual int get_luck();
@@ -58,6 +64,8 @@ public:
     virtual int get_manapool();
     virtual int get_stamina();
     virtual int get_health();
+    virtual int get_defense();
+    virtual int get_magic_resistance();
     
 private:
   int agility;
@@ -68,6 +76,8 @@ private:
   int manapool;
   int stamina;
   int health;
+  int defense;
+  int magic_resistance;
 };
 
 #endif // STATS_H
