@@ -30,4 +30,11 @@ Plan Of Action:
     iv. a few npcs
     v. some shops
   Step 3: Make it bigger/Flesh the world out
-  Step 4: 
+  
+  Step 4: Begin to transfer over to Qt Graphical components, continue to flesh stuff out
+
+  Step 5: Complete Transition over to Qt, Start playing with OpenGL / 3d Modeling
+
+  Step 6: Continue working with OpenGL, look at networking possibilities (plug into Telepathy?)
+
+  Step 7: Refine
