@@ -27,8 +27,5 @@ stats::stats()
   strength = 0;
   luck = 0;
   wisdom = 0;
-  manapool = 0;
-  stamina = 0;
-  health = 0;
 }
 

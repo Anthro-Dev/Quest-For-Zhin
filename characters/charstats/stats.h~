@@ -18,17 +18,42 @@
 */
 
 
-#include "stats.h"
+#ifndef STATS_H
+#define STATS_H
 
-stats::stats()
+class stats
 {
-  agility = 0;
-  intelligence = 0;
-  strength = 0;
-  luck = 0;
-  wisdom = 0;
-  manapool = 0;
-  stamina = 0;
-  health = 0;
-}
+public:
+    stats();
+    
+    void set_agility();
+    void set_agility(int);
+    
+    void set_intelligence();
+    void set_intelligence(int);
+    
+    void set_luck();
+    void set_luck(int);
+    
+    void set_strength();
+    void set_strength(int);
+    
+    void set_wisdom();
+    void set_wisdom(int);
+    
+    int get_agility();
+    int get_intelligence();
+    int get_luck();
+    int get_strength();
+    int get_wisdom();
+    
+private:
+  int agility;
+  int intelligence;
+  int luck;
+  int strength;
+  int wisdom;
+  
+};
 
+#endif // STATS_H

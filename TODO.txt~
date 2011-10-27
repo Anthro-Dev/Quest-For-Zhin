@@ -1,0 +1,33 @@
+Plan Of Action:
+
+  Step 1: Create Basic Combat 
+    i. set up character generation
+      a. races
+      b. attributes
+      c. skills
+      d. equipment
+    ii. set up monsters
+      a-d same as i
+      e. Basic AI
+    iii. set up basic combat
+      a. Blades
+	I. Knives
+	II. Swords
+      b. Blunt
+	I. Maces
+	II. Axes
+      c. Magic
+	I. Elemental
+	II. Illusion
+	III. Conjuration
+	IV. Restoration
+  Step 2: Create Mini-map to run around in
+	  (possibly start integrating command line level
+	  Qt)
+    i. Small World Map
+    ii. a few basic quests
+    iii. set up parser
+    iv. a few npcs
+    v. some shops
+  Step 3: Make it bigger/Flesh the world out
+  Step 4: 
