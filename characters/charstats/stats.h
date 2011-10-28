@@ -56,16 +56,42 @@ public:
     virtual void set_magic_resistance();
     virtual void set_magic_resistance(int);
     
+    virtual void set_level();
+    virtual void set_level(int);
+    
     virtual int get_agility();
     virtual int get_intelligence();
     virtual int get_luck();
     virtual int get_strength();
     virtual int get_wisdom();
+    
     virtual int get_manapool();
     virtual int get_stamina();
     virtual int get_health();
-    virtual int get_defense();
+    
+    
+    
     virtual int get_magic_resistance();
+    virtual int get_fire_resistance();
+    virtual int get_water_reistance();
+    virtual int get_earth_resistance();
+    virtual int get_air_resistance();
+    
+    virtual int get_slashing_resistance();
+    virtual int get_bashing_resistance();
+    virtual int get_piercing_resistance();
+    
+    virtual bool get_magic_immunity();
+    virtual bool get_fire_immunity();
+    virtual bool get_water_immunity();
+    virtual bool get_earth_immunity();
+    virtual bool get_air_immunity();
+    
+    virtual bool get_slashing_immunity();
+    virtual bool get_bashing_immunity();
+    virtual bool get_piercing_immunity();
+    
+    virtual int get_level();
     
 private:
   int agility;
@@ -73,11 +99,38 @@ private:
   int luck;
   int strength;
   int wisdom;
+  
   int manapool;
   int stamina;
   int health;
-  int defense;
-  int magic_resistance;
+  
+  struct defense
+  {
+    int armor;
+    
+    int magic_resistance;
+    int fire_resistance;
+    int water_resistance;
+    int earth_resistance;
+    int air_resistance;
+    
+    int slashing_resistance;
+    int bashing_resistance;
+    int piercing_resistance;
+    
+    bool magic_immunity;
+    bool fire_immunity;
+    bool water_immunity;
+    bool earth_immunity;
+    bool air_immunity;
+    
+    bool slashing_immunity;
+    bool bashing_immunity;
+    bool piercing_immunity;
+    
+    
+  };  
+  int level;
 };
 
 #endif // STATS_H

@@ -102,7 +102,15 @@ void stats::set_magic_resistance()
 }
 
 void stats::set_magic_resistance(int mage_resist)
-{magic_resistance = mage_resist;}
+{defense.magic_resistance = mage_resist;}
+
+void stats::set_level()
+{
+
+}
+void stats::set_level ( int levels)
+{level = levels;}
+
 
 int stats::get_agility()
 {return agility;}
@@ -125,14 +133,47 @@ int stats::get_manapool()
 int stats::get_stamina()
 {return stamina;}
 
-int stats::get_defense()
-{return defense;}
 
 int stats::get_health()
 {return health;}
 
+
 int stats::get_magic_resistance()
-{return magic_resistance;}
+{return defense.magic_resistance;}
+int stats::get_fire_resistance()
+{return defense.fire_resistance;}
+int stats::get_earth_resistance()
+{return defense.earth_resistance;}
+int stats::get_air_resistance()
+{return defense.air_resistance;}
+int stats::get_water_reistance()
+{return defense.water_resistance;}
+
+int stats::get_slashing_resistance()
+{return defense.slashing_resistance;}
+int stats::get_bashing_resistance()
+{return defense.bashing_resistance;}
+int stats::get_piercing_resistance()
+{return defense.piercing_resistance;}
+
+bool stats::get_magic_immunity()
+{return defense.magic_immunity;}
+bool stats::get_fire_immunity()
+{return defense.fire_immunity;}
+bool stats::get_earth_immunity()
+{return defense.earth_immunity;}
+bool stats::get_air_immunity()
+{return defense.air_immunity;}
+bool stats::get_water_immunity()
+{return defense.water_immunity;}
+
+bool stats::get_slashing_immunity()
+{return defense.slashing_immunity;}
+bool stats::get_bashing_immunity()
+{return defense.bashing_immunity;}
+bool stats::get_piercing_immunity()
+{return defense.piercing_immunity;}
 
 
-
+int stats::get_level()
+{return level;}
