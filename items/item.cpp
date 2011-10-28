@@ -22,6 +22,7 @@
 
 item::item()
 {
+  
 
 }
 void item::set_value()
