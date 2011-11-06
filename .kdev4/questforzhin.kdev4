@@ -1,0 +1,15 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x1c\x00Q\x00u\x00e\x00s\x00t\x00-\x00F\x00o\x00r\x00-\x00Z\x00h\x00i\x00n)
+
+[CMake]
+BuildDirs=/home/disva/projects/Quest-For-Zhin-Build
+CMakeDir=/usr/share/cmake-2.8/Modules
+Current CMake Binary=file:///usr/bin/cmake
+CurrentBuildDir=file:///home/disva/projects/Quest-For-Zhin-Build
+CurrentBuildType=Debug
+CurrentInstallDir=
+Extra Arguments=
+ProjectRootRelative=./
+
+[Project]
+VersionControlSupport=kdevgit

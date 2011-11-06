@@ -1,6 +1,6 @@
 project(questforzhin)
 
-add_executable(questforzhin characters/player/player.cpp main.cpp)
+add_executable(questforzhin main.cpp)
 
 add_subdirectory(interface)
 add_subdirectory(maps)
