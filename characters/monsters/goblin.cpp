@@ -23,8 +23,16 @@
 goblin::goblin()
 {
   set_agility(5);
+  set_defense(5);
+  set_health(5);
+  set_intelligence(5);
+  set_luck(5);
+  set_magic_resistance(5);
+  set_manapool(0);
+  set_strength(5);
+  set_stamina(5);
+  set_wisdom(5);
   
-
 }
 
 goblin::~goblin()
